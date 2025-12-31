@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Other Websites</title>
+    <link rel="stylesheet" href="websites.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header id="blurred">
+      <section class="hero">
+        <span title="Me :)"
+          ><h1 data-aos="fade-down" data-aos-duration="1500">
+            SECOND SENTINEL: ASGARD
+          </h1></span
+        >
+        <spline-viewer
+          class="robot-3d"
+          url="https://prod.spline.design/QZzqZXdNkt0iWh2w/scene.splinecode"
+        ></spline-viewer>
+
+        <!--TODO: Make the navigation menu-->
+        <nav>
+          <section
+            class="nav-tooltip nav-circle"
+            data-tooltip="Click me to see the nav menu"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            &nbsp;
+          </section>
+          <section class="nav-menu">
+            <h3>Nav Menu</h3>
+            <a href="index.html" title="Links to the about me page">About Me</a>
+            <a
+              href="websites.html"
+              title="Links to a page showcasing my other websites"
+              class="active"
+              >My Websites</a
+            >
+            <a
+              href="contact.html"
+              title="Links to a page in which you can contact me"
+              >Contact Me</a
+            >
+          </section>
+        </nav>
+      </section>
+
+      <section class="page-title-section">
+        <div
+          class="circles left-circle"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        ></div>
+        <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+          My Websites
+        </h2>
+        <div
+          class="circles right-circle"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        ></div>
+      </section>
+    </header>
+
+    <main data-aos="fade-up" data-aos-duration="2000">
+      <p class="no-websites-text">
+        There are currently no other websites for you to view <br />
+        <img src="emoji.png" alt="A neutral face emoji" /> <br />
+        Check back later
+      </p>
+      <p class="bottom-text bottom-text1">As i said I am a web dev</p>
+      <p class="bottom-text bottom-text2">
+        This page showcases the websites I will make in the future
+      </p>
+    </main>
+
+    <script src="websites.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
